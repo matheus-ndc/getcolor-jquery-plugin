@@ -1,0 +1,32 @@
+#boxGetColor{ width: 400px; box-shadow: 5px 5px 5px #AAA; display: none; position: absolute; overflow: hidden;
+}
+#paletaCor{ width: 400px; border: 0; border-spacing: 0; background-color: #000;
+}
+#paletaCor td{ width: 10px; height: 10px; border: 1px solid transparent; cursor: pointer;
+}
+#paletaCor td:hover{ border-color: #fff;    
+}
+#barraTopo{ width: 400px; height: 21px; background-color: #000;
+}
+#fecharPaleta{ color: #FFF; cursor: pointer;
+}
+#fecharPaleta:hover{ background-color: #FFF; color: #000;
+}
+.iconeFechar { color: #000; position: absolute; margin-top: 0; margin-left: 0; width: 21px; height: 21px;
+}
+.iconeFechar:before { content: ''; position: absolute; top: 10px; width: 21px; height: 1px; background-color: currentColor; -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+}
+.iconeFechar:after { content: ''; position: absolute; top: 10px; width: 21px; height: 1px; background-color: currentColor; -webkit-transform: rotate(45deg); transform: rotate(45deg);
+}
+#barraOpcoes{ width: 390px; height: 22px; padding: 5px; color: #FFF; background-color: #000;
+}
+#boxTextoCor{ width: 120px; height: 20px; background-color: #000; border: 1px solid #FFF; float: left; text-align: center;
+}
+#corSelecionada{ width: 40px; height: 20px; margin-left: 5px; float: left; border: 1px solid #FFF;
+}
+#textoCor{ line-height: 0; color: #FFF; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold;
+}
+#salvarCor{ float: right; padding: 5px; width: 55px; height: 22px; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; background-color: #000; color: #FFF; border: 1px solid #FFF; cursor: pointer;
+}
+#salvarCor:hover{ background-color: #FFF; color: #000;
+}
